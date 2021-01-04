@@ -14,7 +14,7 @@ public class RoadTrip {
 		trip.read();
 		trip.vertices();
 		trip.addattractions();
-		trip.printGraph();
+		trip.print();
 	}
 	
 	public void vertices() { 
@@ -69,7 +69,7 @@ public class RoadTrip {
 		}
 	}
 
-	public void printGraph() {
+	public void print() {
 		for(String location: locationEdges.keySet()) {
 
 			System.out.println("Location: "+ location);
